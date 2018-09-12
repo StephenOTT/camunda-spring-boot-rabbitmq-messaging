@@ -1,0 +1,11 @@
+server.port: 8090
+camunda:
+    bpm:
+        admin-user:
+            id: admin
+            password: admin
+            firstName: Admin
+    rest-api:
+        jwt:
+            secret-path: /Users/stephenrussett/jwt/key.pub
+            validator-class: io.digitalstate.camunda.custom.microservice.ValidatorJwt
